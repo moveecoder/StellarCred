@@ -10,7 +10,6 @@ dist
 # Local settings
 .soroban
 .stellar
-.env.local
 
 # Local tooling config (not committed)
 .kilo/
@@ -35,7 +34,6 @@ dist
 # Local settings
 .soroban
 .stellar
-.env.local
 
 # Deployment artifacts (local; use git for version control)
 deployment-manifests/
@@ -49,3 +47,7 @@ proptest-regressions/
 
 # macOS
 .DS_Store
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
