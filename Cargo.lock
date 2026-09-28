@@ -1825,17 +1825,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "test_support"
-version = "1.0.0"
-dependencies = [
- "credential_verifier",
- "gated_pool",
- "issuer_registry",
- "proof_registry",
- "soroban-sdk",
-]
-
-[[package]]
 name = "tempfile"
 version = "3.27.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1846,6 +1835,17 @@ dependencies = [
  "once_cell",
  "rustix",
  "windows-sys",
+]
+
+[[package]]
+name = "test_support"
+version = "1.0.0"
+dependencies = [
+ "credential_verifier",
+ "gated_pool",
+ "issuer_registry",
+ "proof_registry",
+ "soroban-sdk",
 ]
 
 [[package]]
